@@ -1,0 +1,140 @@
+:root{
+    --text-color: #1B3E80;
+    --font-family: poppins;
+    --primary-color:
+}
+#brand{
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+color:  #E5E5E5;
+background: #1b3e80;
+width: 192px;
+height: 77px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+#abc{
+    border-radius: 0;
+    width: 154px;
+    height: 58px;
+}
+.nav-item{
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 25px;
+}
+.btn{
+    border: 2px solid white;
+
+}
+#pricingbtn{
+    margin-top: 40px;
+
+}
+#pricing{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.bmw{
+    /* width: 400px; */
+    height: 160px;
+    font-weight: 600;
+    font-size: 128px;
+    line-height: 192px;
+    text-align: center;
+    color: var(--text-color)
+}
+.design{
+    height: 160px;
+    font-weight: 600;
+    font-size: 128px;
+    line-height: 192px;
+    margin-left: 39rem;
+    margin-top: -50px;
+}
+.def{
+    display: flex !important;
+    flex-direction: row;
+
+}
+.headings{
+    color: var(--text-color);
+    
+}
+.mt-6{
+    margin-top: 90px !important;
+}
+.lead{
+    font-weight: 400 !important;
+    font-size: 32px !important;
+    display: flex;
+    /* justify-content: center; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Polygon{
+    position: relative;
+    bottom: 306px;
+    left: 593px;
+}
+.Ellipse{
+    position: relative;
+    bottom: 306px;
+    left: 519px;
+}
+.our{
+    height: 160px;
+    font-weight: 600;
+    font-size: 128px;
+    line-height: 192px;
+    text-align: start;
+    color: var(--text-color)
+
+}
+.cars{
+    height: 160px;
+    font-weight: 600;
+    font-size: 128px;
+    line-height: 192px;
+    margin-left: 5.7rem;
+    margin-top: -50px;
+}
+
+.arrow1, .arrow2, .ellipse1, .ellipse2{
+    position: relative;
+}
+.ellipse1{
+    top: 0;
+    left: 209px;
+}
+.ellipse2{
+    top: 0;
+    left: 240px;
+}
+.arrow1{
+    left: 172px;
+}
+.xyz{
+    width: 400px;
+    height: 295px;
+}
+.footer {
+    height: 161px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+
+    background-color: black; /* Add your desired background color */
+    color: whitesmoke; /* Add your desired text color */
+    padding: 20px; /* Add padding for content spacing */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+    width: 100%; /* Full width */
+  }
