@@ -229,7 +229,16 @@ justify-content: center;
     }
 
 }
-
+@media (max-width: 370px) {
+    .arrows, .circle {
+        padding-left: 7rem;
+    }
+}
+@media (max-width: 35px) {
+    .arrows, .circle {
+        padding-left: 0rem;
+    }
+}
 .footer {
     height: 6rem;
     font-family: 'Poppins', sans-serif;
@@ -239,4 +248,7 @@ justify-content: center;
     color: whitesmoke;
     margin: 0 auto;
     box-sizing: border-box;
+}
+.car-slider{
+    width: 100%;
 }
